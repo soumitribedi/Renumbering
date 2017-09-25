@@ -1,7 +1,8 @@
 # Renumbering
 Python module for renumber molecules having same main structural framework with same number 
 
-##Getting started
+Getting started
+------------
 You need a setup.py file in the main directory.
 You need pip which can be downloaded by  
 
