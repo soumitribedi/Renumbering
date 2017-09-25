@@ -20,7 +20,8 @@ pip install -e .
 ```
 on the main directory.
 
-##Testing
+Testing
+------------
 Now install pytest for python 2.7 
 In the test folder make a test file. One is already made with a assert true so that it passes now.
 We need more tests.
