@@ -1,7 +1,10 @@
+"""
 #renumber a molecule according to the numbering of the reference molecule
 #All files should be in cartesian coordinates and in xyz format
 #first filename after scriptname in command line is the file that is to be renumbered
 #second filename is the reference molecule
+"""
+#renumber a molecule according to the numbering of the reference molecule
 
 from scipy.optimize import fsolve
 import numpy as np
@@ -11,8 +14,10 @@ import re
 import math
 
 from sys import argv
-file_ref = argv[1]      #first file from command line
-file_2 = argv[2]        #second file from command line
+#file_ref = np.loadtxt("ref.xyz",float)      #first file from command line
+file_ref = "small.xyz"      #first file from command line
+#file_2 = np.loadtxt("file2",float)       #second file from command line
+file_2 = "small2.xyz"    #second file from command line
 
 def orientation(filename):             #function orientation will reorient the input file in a certain plane
 	file = open(filename)
