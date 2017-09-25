@@ -217,3 +217,4 @@ for a in range(0,natom_2):
 	print new_order[a],xnew[a],ynew[a],znew[a] #atom_type_ref[a]
 	#print prev_index[a]
 
+
